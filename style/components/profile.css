@@ -1,0 +1,57 @@
+.profile{
+    width: 100%;
+    height: auto;
+}
+
+.header-item .header-icon img{
+    filter: invert(51%);
+    margin-right: 20px;
+    width: 35px;
+}
+
+.header-item .signout{
+    color: #ffffff;
+	text-decoration: none;
+	background-color: #d11c1c;
+	padding: 5px 10px;
+	margin-right: 20px;
+	border-radius: 5px;
+	font-weight: 900;
+}
+
+
+.profile-my-books{
+    width: 100%;
+    height: auto;
+}
+
+.profile-config{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-config h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin: 50px 0 0 70px;
+}
+
+.profile-config a{
+    color: #ffffff;
+	text-decoration: none;
+	background-color: #d11c1c;
+	padding: 5px 10px;
+	margin: 50px 100px 0 0;
+	border-radius: 5px;
+	font-weight: 900;
+    font-size: 20px;
+}
+
+.books h4{
+    font-size: 25px;
+    color: wheat;
+    margin: 100px 0 0 70px;
+}
+
+

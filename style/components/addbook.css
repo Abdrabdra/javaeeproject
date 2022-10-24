@@ -1,0 +1,146 @@
+.add-section{
+    width: 100%;
+    height: auto;
+}
+
+.add-content h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #d11c1c;
+    margin: 100px 0 0 60px;
+}
+
+.form-content{
+    margin: 50px 0 0 60px;
+}
+
+.form-books input{
+    background-color: #333;
+    outline: none;
+    border: none;
+}
+
+.form-books select{
+    background-color: wheat;
+}
+
+.form-books .input-textarea{
+    background-color: wheat;
+    resize: none;
+    height: 100px;
+}
+
+.form-books {
+    margin-bottom: 20px;
+}
+
+.select-book{
+    padding: 10px;
+}
+
+
+.red-button{
+    outline: none;
+    border: none;
+    color: #ffffff;
+	text-decoration: none;
+	background-color: #d11c1c;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: 900;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+}
+
+
+
+
+
+.books{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.book-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    width: 290px;
+    height: 510px;
+    margin: 40px 0 30px 40px;
+    border-radius: 10px;
+}
+
+
+.book-item-a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #d11c1c;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 13px;
+    margin: 0 22px;
+}
+
+
+.book-item-img{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+
+
+
+.book-item img{
+    transition: 0.3s;
+}
+
+
+
+.book-item img:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.book-header {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+.book-header h3{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.book-header h3 a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.book-header h3 a:hover{
+    text-decoration: none;
+    color: #791212;
+    transition: 0.3s;
+}
+
+.book-header .book-desc {
+    color: #fff;
+    line-height: 1.4;
+    margin: 20px 0 0 0px;
+    text-align: center;
+    font-weight: 900;
+
+}
+
+.book-header .book-price{
+    margin: 20px 0 20px 0px;
+    text-align: center;
+    font-weight: 900;
+    color: #ffffff;
+}
